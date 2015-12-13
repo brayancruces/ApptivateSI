@@ -37,7 +37,7 @@
                         });
 
                         // Parar busqueda
-                        app.stopRangingBeacons();
+                        //app.stopRangingBeacons();
 
                      }
 
@@ -45,7 +45,7 @@
                 else if(beacon.major === 12058) 
                 {
                     if(beacon.proximity === 1){ // celeste
-                    	
+
                         //alert("Pop 2");    
 
                          // Llamada a pop out  2
@@ -54,7 +54,7 @@
                         });
 
                          // Parar busqueda
-                        app.stopRangingBeacons();
+                       // app.stopRangingBeacons();
 
 
 
