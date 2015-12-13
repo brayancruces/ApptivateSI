@@ -158,6 +158,12 @@ myApp.onPageInit('page_descubre', function (page) {
             color: 'yellow'
         }
     });
+  
+   $$(document).on('pageBack', function (e) {
+  // Page Data contains all required information about loaded and initialized page 
+    app.stopRangingBeacons();
+   })
+ 
 
    // Llamada a scripts
    
@@ -189,6 +195,5 @@ myApp.onPageInit('page_descubre', function (page) {
 //   app.startRangingBeacons();
 
 // });      
-
 
 
