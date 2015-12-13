@@ -36,6 +36,9 @@
                         	console.log('Popup 1 se abre.')
                         });
 
+
+                        myApp.popup('.popup1');
+
                         // Parar busqueda
                         app.stopRangingBeacons();
 
@@ -52,6 +55,8 @@
                          $$('.popup2').on('open', function () {
                         	console.log('Popup 2 se abre.')
                         });
+
+                           myApp.popup('.popup2');
 
                          // Parar busqueda
                        app.stopRangingBeacons();

@@ -171,7 +171,7 @@ myApp.onPageInit('page_descubre', function (page) {
 
 
 // Reactivar busqueda
-$$('.popup1').on('closed', function () {
+$$('.popup1').on('close', function () {
 
   console.log('Popup1 is closed');
    
@@ -179,7 +179,7 @@ $$('.popup1').on('closed', function () {
 
 });      
 
-$$('.popup2').on('closed', function () {
+$$('.popup2').on('close', function () {
 
   console.log('Popup2 is closed');
    
