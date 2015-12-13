@@ -171,21 +171,24 @@ myApp.onPageInit('page_descubre', function (page) {
 
 
 // Reactivar busqueda
-$$('.popup1').on('close', function () {
 
-  console.log('Popup1 is closed');
+
+
+// $$('.popup1').on('closed', function () {
+
+//   console.log('Popup1 is closed');
    
-  app.startRangingBeacons();
+//   app.startRangingBeacons();
 
-});      
+// });      
 
-$$('.popup2').on('close', function () {
+// $$('.popup2').on('closed', function () {
 
-  console.log('Popup2 is closed');
+//   console.log('Popup2 is closed');
    
-  app.startRangingBeacons();
+//   app.startRangingBeacons();
 
-});      
+// });      
 
 
 

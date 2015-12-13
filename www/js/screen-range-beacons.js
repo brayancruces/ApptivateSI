@@ -37,10 +37,10 @@
                         });
 
 
-                        myApp.popup('.popup1');
+                        //myApp.popup('.popup1');
 
                         // Parar busqueda
-                        app.stopRangingBeacons();
+                        //app.stopRangingBeacons();
 
                      }
 
@@ -56,10 +56,10 @@
                         	console.log('Popup 2 se abre.')
                         });
 
-                           myApp.popup('.popup2');
+                         // myApp.popup('.popup2');
 
                          // Parar busqueda
-                       app.stopRangingBeacons();
+                      // app.stopRangingBeacons();
 
 
 
