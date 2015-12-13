@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+
+    <title>Apptivate v1</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
+    <!--<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">-->
+
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/aplicacion.css">
+
+    <link rel="icon" href="img/icon.png">
+
+  </head>
+
+  <body class="theme-green">
+    
+    <!-- ================ PANELES ================== >
+
+    <!-- Primero, el overlay -->
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    
+    <div class="panel panel-left panel-cover">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Panel</div>
+              </div>
+            </div>
+            <div class="page-content">
+                 <!-- 
+                    <div class="list-block media-list">
+                      <ul>
+                        <li>
+                          <div class="item-content">
+                            <div class="item-media"><img src="img/128.jpg" width="44"/></div>
+                            <div class="item-inner">
+                              <div class="item-title-row">
+                                <div class="item-title">Luis Lopez</div>
+                              </div>
+                              <div class="item-subtitle"> Disponible: <span class="color-green"> S/.400 </span> </div>
+                            </div>
+                          </div>
+                        </li>
+                       
+                         
+                        </ul>
+                      </div> -->
+
+              <div class="list-block">
+                <ul>
+                 
+                      
+                        
+
+
+
+                         
+                            <li><a href="mis_eventos.html" class="item-link close-panel">
+                          <div class="item-content">
+
+                            <div class="item-inner">
+                              <div class="item-title">Mis eventos</div>
+                            </div>
+
+
+                          </div></a></li>
+
+
+                             <li><a href="descubre.html" class="item-link close-panel">
+                          <div class="item-content">
+
+                            <div class="item-inner">
+                              <div class="item-title"><b>Descubre!</b></div>
+                            </div>
+
+
+                          </div></a></li>
+
+
+                           <li><a href="eventos_enmapa.html" class="item-link close-panel">
+                          <div class="item-content">
+
+                            <div class="item-inner">
+                              <div class="item-title">Eventos en mapa</div>
+                            </div>
+
+
+                          </div></a></li>
+
+
+
+
+                         
+
+                          <li><a href="configuracion.html" class="item-link close-panel">
+                          <div class="item-content">
+
+                            <div class="item-inner">
+                              <div class="item-title">Personalización</div>
+                            </div>
+
+
+                          </div></a></li>
+                         
+
+
+                          <li><a href="acercade.html" class="item-link close-panel">
+                        <div class="item-content">
+
+                          <div class="item-inner">
+                            <div class="item-title">Sugerencias</div>
+                          </div>
+                        </div></a></li>
+
+
+                       
+                         <li><a href="acercade.html" class="item-link close-panel">
+                        <div class="item-content">
+
+                          <div class="item-inner">
+                            <div class="item-title">Acerca de</div>
+                          </div>
+                        </div></a></li>
+
+                 
+                </ul>
+              </div> <!-- fin .list-block-->
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+     
+    <!-- ================ VISTAS ================== >
+
+    <!-- Views -->
+    <div class="views">
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+ 
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar">
+              <div class="navbar-inner">
+                   <div class="left"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                <div class="center">ApptívateSI</div>
+              
+              </div>
+            </div>
+
+
+             <!-- Start Tabs -->
+            <div class="toolbar tabbar">
+              <div class="toolbar-inner"><a href="#tab1" class="active tab-link"> <i class="fa fa-clock-o fa-2x"></i> </a>
+
+                <a href="#tab2" class="tab-link"> <i class="fa fa-undo fa-2x"></i> </a>
+
+                <a href="#tab3" class="tab-link"><i class="fa fa-star fa-2x"></i></a></div>
+            </div>
+            <div class="tabs-animated-wrap">
+              <div class="tabs">
+                <div id="tab1" class="page-content tab active">
+                 
+                    <p>This is tab 1 content</p>
+               
+                    <!-- Listado de eventos --> 
+                    <div class="content-block-title">Próximos eventos</div>
+                    <div class="card ks-card-header-pic">
+                      <div style="background-image:url('img/lugares/prueba.jpg')" valign="bottom" class="card-header color-white no-border">El Mago George</div>
+                      <div class="card-content"> 
+                        <div class="card-content-inner"> 
+                          <p class="color-gray">14/12/15 - 8:00 PM</p>
+                          <p>Espectáculo de Magia en el Auditorio del Centro Cultural El Olivar. Dirigido por Jorge L. Larrabure</p>
+
+                        </div>
+                      </div>
+                      <div class="card-footer"> INFANTIL | CC. El Olivar <a href="ver_evento.html" class="link">Ver más</a></div>
+                    </div>
+
+                      <div class="card ks-card-header-pic">
+                      <div style="background-image:url('img/lugares/prueba.jpg')" valign="bottom" class="card-header color-white no-border">Asi de simple</div>
+                      <div class="card-content"> 
+                        <div class="card-content-inner"> 
+                          <p class="color-gray">14/12/15 - 8:00 PM </p>
+                          <p>Espectáculo de Magia en el Auditorio del Centro Cultural El Olivar. Dirigido por Daniela Mendiola</p>
+
+                        </div>
+                      </div>
+                      <div class="card-footer"> TEATRO | CC. El Olivar <a href="ver_evento.html" class="link">Ver más</a></div>
+                    </div>
+  
+  
+                     
+                    
+
+
+                     
+                     
+
+                       
+                          
+
+                  
+                </div>
+
+            
+
+                <div id="tab2" class="page-content tab">
+                 
+                    <p>This is tab 2 content</p>
+                   
+                   <div class="content-block-title">Eventos pasados</div>               
+
+                     <div class="card ks-card-header-pic">
+                      <div style="background-image:url('img/lugares/prueba.jpg')" valign="bottom" class="card-header color-white no-border">El Mago George</div>
+                      <div class="card-content"> 
+                        <div class="card-content-inner"> 
+                          <p class="color-gray">14/12/15 - 8:00 PM</p>
+                          <p>Espectáculo de Magia en el Auditorio del Centro Cultural El Olivar. Dirigido por Jorge L. Larrabure</p>
+
+                        </div>
+                      </div>
+                      <div class="card-footer"> INFANTIL | CC. El Olivar <a href="ver_evento.html" class="link">Ver más</a></div>
+                    </div>
+
+                      <div class="card ks-card-header-pic">
+                      <div style="background-image:url('img/lugares/prueba.jpg')" valign="bottom" class="card-header color-white no-border">Asi de simple</div>
+                      <div class="card-content"> 
+                        <div class="card-content-inner"> 
+                          <p class="color-gray">14/12/15 - 8:00 PM </p>
+                          <p>Espectáculo de Magia en el Auditorio del Centro Cultural El Olivar. Dirigido por Daniela Mendiola</p>
+
+                        </div>
+                      </div>
+                      <div class="card-footer"> TEATRO | CC. El Olivar <a href="ver_evento.html" class="link">Ver más</a></div>
+                    </div>
+
+                    
+
+                       
+                  
+                       
+                        <p class="buttons-row">
+                              <a href="#" class="button ripple-blue">Ver más</a>
+                          
+                            </p>
+
+
+                 
+                </div>
+
+             
+               
+                <div id="tab3" class="page-content tab">
+
+                 
+                    <p>This is tab 3 content</p>
+                    
+                      <div class="content-block-title">Eventos favoritos</div>
+                      
+                      <div class="card ks-card-header-pic">
+                      <div style="background-image:url('img/lugares/prueba.jpg')" valign="bottom" class="card-header color-white no-border">El Mago George</div>
+                      <div class="card-content"> 
+                        <div class="card-content-inner"> 
+                          <p class="color-gray">14/12/15 - 8:00 PM</p>
+                          <p>Espectáculo de Magia en el Auditorio del Centro Cultural El Olivar. Dirigido por Jorge L. Larrabure</p>
+
+                        </div>
+                      </div>
+                      <div class="card-footer"> INFANTIL | CC. El Olivar <a href="ver_evento.html" class="link">Ver más</a></div>
+                    </div>
+
+                     
+                                  
+
+
+                      
+
+                    
+
+
+
+                
+                </div>
+              </div>
+            </div> <!-- fin tabs -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- ================ LIBRERIAS JS ================== >
+
+    <!-- Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="cordova.js"></script>
+		<script src="js/lib/jquery-2.1.1.min.js"></script>
+		<script src="js/lib/touch.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/screen-range-beacons.js"></script>
+  
+
+    <!-- JSs-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB04I0CWskSWlsG3tUWxrc2TeAby3-TeGo"></script>
+    <script type="text/javascript" src="js/app-start.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+   
+
+  </body>
+</html> 
