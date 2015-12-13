@@ -143,6 +143,8 @@ myApp.onPageInit('page_eventos_enmapa', function (page) {
 });
 
 
+// Estoy en descubre
+
 myApp.onPageInit('page_descubre', function (page) {
   console.log('Estoy en Descubre!');
   console.log(page);
@@ -159,7 +161,7 @@ myApp.onPageInit('page_descubre', function (page) {
 
    // Llamada a scripts
    
-app.startRangingBeacons();
+  app.startRangingBeacons();
 
 
 

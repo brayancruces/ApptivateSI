@@ -1,4 +1,4 @@
-/* Your app custom files in this file */
+/* Aplicacion.css */
 
 /* iconos */ 
 
@@ -121,7 +121,7 @@ i.tabbar-demo-icon-4 {
 /* Adicionales */ 
 
 .descubre-bg{
-  background:url('../img/bg-logo.png') no-repeat;
+  background:url('../img/bg-logo.png') no-repeat center center;
   width:auto;
   height:100%;
 
