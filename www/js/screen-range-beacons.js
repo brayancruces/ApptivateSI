@@ -28,7 +28,7 @@
 
 
 
-                        alert("Pop 1");    
+                        //alert("Pop 1");    
 
                         // Llamada a pop out 1
 
@@ -49,7 +49,7 @@
                 {
                     if(beacon.proximity === 1){ // celeste
 
-                        alert("Pop 2");    
+                        //alert("Pop 2");    
 
                          // Llamada a pop out  2
                          $$('.popup2').on('open', function () {
