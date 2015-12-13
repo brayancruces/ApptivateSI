@@ -24,13 +24,44 @@
 			{
                 if(beacon.major === 2660)
                 {
-                    if(beacon.proximity === 1)
-                        alert("Encontraste el jabon de favio!!");        
+                    if(beacon.proximity === 1){ // morado
+
+
+
+                        //alert("Pop 1");    
+
+                        // Llamada a pop out 1
+
+                        $$('.popup1').on('open', function () {
+                        	console.log('Popup 1 se abre.')
+                        });
+
+                        // Parar busqueda
+                        app.stopRangingBeacons();
+
+                     }
+
                 }
-                else if(beacon.major === 12058)
+                else if(beacon.major === 12058) 
                 {
-                    if(beacon.proximity === 1)
-                        alert("Encontraste el jabon de crayon!!");        
+                    if(beacon.proximity === 1){ // celeste
+                    	
+                        //alert("Pop 2");    
+
+                         // Llamada a pop out  2
+                         $$('.popup2').on('open', function () {
+                        	console.log('Popup 2 se abre.')
+                        });
+
+                         // Parar busqueda
+                        app.stopRangingBeacons();
+
+
+
+
+                    }
+
+
                 }
 			});
 		};

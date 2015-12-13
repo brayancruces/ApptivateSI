@@ -163,9 +163,29 @@ myApp.onPageInit('page_descubre', function (page) {
    
   app.startRangingBeacons();
 
+   
 
 
 });
+
+
+
+// Reactivar busqueda
+$$('.popup1').on('closed', function () {
+
+  console.log('Popup1 is closed');
+   
+  app.startRangingBeacons();
+
+});      
+
+$$('.popup2').on('closed', function () {
+
+  console.log('Popup2 is closed');
+   
+  app.startRangingBeacons();
+
+});      
 
 
 
